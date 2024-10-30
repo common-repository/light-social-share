@@ -1,0 +1,33 @@
+/*
+* CSS style for icons' style
+*/
+
+.ess_social_share {
+    display: inline-block;
+    float: right;
+}
+
+.ess_social_share a {
+    display: inline-block;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    text-align: center;
+    color: #cccccc !important;
+    border-radius: 50%;
+    margin-left: 10px;
+    line-height: 2;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.ess_social_share a:focus{
+    outline: none;
+}
+
+.ess_social_share a:hover, .ess_social_share a:active, .ess_social_share a:focus, .ess_social_share a:visited{
+    color: #ffffff !important;
+    box-shadow: 0 0 0 !important;
+}
